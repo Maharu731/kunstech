@@ -1,0 +1,155 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8ff;
+  color: #333;
+}
+
+header {
+  background: #fcb83a;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+header p {
+  margin: 0.5rem 0 0;
+  font-size: 1.2rem;
+}
+
+.main-image {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.main-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+main {
+  padding: 1rem;
+  max-width: 800px;
+  margin: auto;
+}
+.scratch img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin: 1rem 0;
+}
+h2 {
+  color: #ff6347;
+  border-bottom: 3px solid #ffebcd;
+  padding-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.course {
+  background: #ffebcd;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.course h3 {
+  margin-top: 0;
+  color: #4682b4;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #ffebcd;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+a {
+  color: #4682b4;
+}
+
+footer {
+  background: #4682b4;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+#instructor {
+  margin-top: 2rem;
+}
+.instructor-icon {
+  margin-bottom: 0.5rem;
+}
+
+#instructor p {
+  margin: 0.5rem 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header h1 {
+      font-size: 1.5rem;
+  }
+  
+  header p {
+      font-size: 1rem;
+  }
+  
+  main {
+      padding: 0.5rem;
+  }
+  
+  .course, ul li {
+      padding: 0.5rem;
+      margin: 0.5rem 0;
+  }
+  
+  h2 {
+      font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+      font-size: 1.2rem;
+  }
+  
+  header p {
+      font-size: 0.9rem;
+  }
+  
+  main {
+      padding: 0.5rem;
+  }
+  
+  .course, ul li {
+      padding: 0.5rem;
+      margin: 0.5rem 0;
+  }
+  
+  h2 {
+      font-size: 1rem;
+  }
+  
+  footer {
+      padding: 0.5rem 0;
+  }
+}
